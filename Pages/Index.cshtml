@@ -1,0 +1,27 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Главная";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+
+            <h1 class="display-4 fw-bold mb-3">
+                Система управления товарами
+            </h1>
+
+            <p class="lead text-muted mb-4">
+                Веб-приложение интернет-магазина на ASP.NET Core Razor Pages.
+                Просмотр каталога, добавление и управление товарами.
+            </p>
+
+            <a asp-page="/Products/Index"
+               class="btn btn-primary btn-lg px-4 shadow-sm">
+                Перейти к товарам
+            </a>
+
+        </div>
+    </div>
+</div>
